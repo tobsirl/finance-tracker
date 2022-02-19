@@ -9,15 +9,18 @@
 3. Setup a view `index.html.erb`
 
 ## Installing devise
+
 1. Install the gem
+
 ```ruby
   gem 'devise'
 ```
+
 2. Run the install command
+
 ```bash
   rails generate devise:install
 ```
-
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
