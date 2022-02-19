@@ -2,6 +2,10 @@
 
 "This is the finance tracker app from the Complete Ruby on Rails Developer course"
 
+1. Setup route `root 'welcome#index'`
+2. Setup up welcome controller with method index
+3. Setup a view `index.html.erb`
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
