@@ -21,11 +21,15 @@
 ```bash
   rails generate devise:install
 ```
+
 3. Run the following to create routes for User
+
 ```bash
   rails generate devise User
 ```
+
 This will generate
+
 ```bash
   rails routes | grep users
                         new_user_session GET    /users/sign_in(.:format)                                                                          devise/sessions#new
@@ -46,26 +50,8 @@ This will generate
 
 ```
 
+### Generate the UserStock association with this command
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```
+rails g resource UserStock user:references stock:references
+```
