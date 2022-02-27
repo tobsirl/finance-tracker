@@ -31,7 +31,8 @@
         <li class="nav-item">
           <%= link_to("Logout", 
                     destroy_user_session_path,
-                    class: "btn btn-xs"
+                    class: "btn btn-xs btn-danger logout-button",
+                    method: :delete
                     ) %>
         </li>
       </ul>
