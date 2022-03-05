@@ -29,6 +29,14 @@ class User < ApplicationRecord
     "Anonymous"
   end
 
+  def self.search(param)
+    param.strip!
+
+  end
+
+  
+  
+
   def self.matches(field_name, param)
     where("#{field_name} like ?", "%#{param}%")
   end
