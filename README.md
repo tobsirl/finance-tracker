@@ -55,3 +55,9 @@ This will generate
 ```
 rails g resource UserStock user:references stock:references
 ```
+
+#### Endpoints
+```
+/user -> user_path(user: user)
+/user/:id => user_path(user)
+```
