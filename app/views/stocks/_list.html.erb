@@ -14,7 +14,7 @@
       <tbody>
         <% @tracked_stocks.each do |stock| %>
           <tr>
-            <th scope="row"><%= stock.ticker %></th>
+            <th scope="row"><%= icon('fa-brands', 'font-awesome', 'Font Awesome', id: 'my-icon', class: 'strong') %> </th>
             <th scope="row"><%= stock.ticker %></th>
             <td><%= stock.name %></td>
             <td><%= stock.last_price %></td>
