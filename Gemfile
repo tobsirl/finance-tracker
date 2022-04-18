@@ -23,6 +23,7 @@ gem 'devise'
 gem 'devise-bootstrap-views', '~> 1.0'
 gem 'iex-ruby-client'
 gem "font-awesome-rails"
+gem 'font-awesome-sass', '~> 6.1.1'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
